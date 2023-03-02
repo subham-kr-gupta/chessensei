@@ -1,7 +1,6 @@
 # chessensei
 
 
-Install Python
-Install streamlit, openai python packages
+Run command: pip install -r requirements.txt
 
 Run command: streamlit run main.py
