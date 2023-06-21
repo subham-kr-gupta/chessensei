@@ -4,7 +4,7 @@ from nutrition import generate_nutrition_plan
 from streamlit_option_menu import option_menu
 
 st.set_page_config(
-    page_title="Chessensei",
+    page_title="Sportify",
     page_icon=""
 )
 hide_streamlit_style = """
@@ -20,7 +20,7 @@ def main():
 
     # with st.sidebar:
     selected = option_menu(
-        menu_title="Chessensei Recommendation Tools",
+        menu_title="Sportify Recommendation Tools",
         options=["Exercise", "Nutrition"],
         icons=["bicycle", "clipboard"],
         menu_icon="magic",
