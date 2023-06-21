@@ -5,9 +5,10 @@ import streamlit as st
 
 @st.cache_data(show_spinner=False)
 def generate_exercise_plan(name, gender, age, height, sports):
-    config = configparser.ConfigParser()
-    config.read("config.ini")
-    openai.api_key = config["OPENAI"]["API_KEY"]
+    # config = configparser.ConfigParser()
+    # config.read("config.ini")
+    # openai.api_key = config["OPENAI"]["API_KEY"]
+    openai.api_key = "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"
     input_text = f"I'm from india, my gender is {gender}, my age is {age}, my height is {height} cm. Can you share me a recommend Yoga plan if am a {sports} player"
 
     try:
