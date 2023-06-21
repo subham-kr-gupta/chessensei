@@ -1,3 +1,4 @@
+import os
 import configparser
 import openai
 import streamlit as st
