@@ -8,7 +8,7 @@ def generate_nutrition_plan(name, gender, age, height, food, sports):
     config = configparser.ConfigParser()
     config.read("config.ini")
     openai.api_key = config["OPENAI"]["API_KEY"]
-    openai.api_key = "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"
+    # openai.api_key = "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"
     input_text = f"I'm from india, my gender is {gender}, my age is {age}, my height is {height} cm my food preference is {food} can you share me a recommend nutrition plan if am a {sports} player breakfast, lunch, dinner"
 
     try:
